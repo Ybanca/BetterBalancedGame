@@ -495,7 +495,7 @@
 		</Replace>
 		<!-- = Unique unit - Unité unique = -->
 		<Replace Tag="LOC_UNIT_ENGLISH_SEADOG_DESCRIPTION" Language="fr_FR">
-			<Text>Exclusive à l'Angleterre, cette unité navale de la Renaissance d'assaut en mer remplace le Corsaire. [ICON_STRENGTH] Puissance de base +3. Offre une chance de capturer les unités navales vaincues.</Text>
+			<Text>Exclusive à l'Angleterre, cette unité navale de la Renaissance d'assaut en mer remplace le Corsaire. [ICON_STRENGTH] Puissance de base +3. Offre une chance de capturer les unités navales vaincues. Ne peut être vu que par d'autres unités navales d'assaut en mer à moins de lui être adjacent. Révèle les unités d'assaut en mer dans son champ de vision.</Text>
 		</Replace>
 		<!-- = Unique unit - Unité unique = -->
 		<Replace Tag="LOC_UNIT_ENGLISH_REDCOAT_DESCRIPTION" Language="fr_FR">
@@ -579,7 +579,7 @@
 		</Replace>
 		<!-- = Unique district - Quartier unique = -->
 		<Replace Tag="LOC_DISTRICT_OPPIDUM_DESCRIPTION" Language="fr_FR">
-			<Text>Exclusif à la Gaule, ce quartier remplace la Zone industrielle et se débloque au Travail du Fer. L'Oppidum est un quartier défendable.[NEWLINE][ICON_PRODUCTION] Production +2 s'il est adjacent à une carrière ou une ressource stratégique. Provoque un bombe culturelle sur les cases neutres à sa complétion.</Text>
+			<Text>Exclusif à la Gaule, ce quartier remplace la Zone industrielle et se débloque au Travail du Fer. L'Oppidum est un quartier défendable.[NEWLINE][ICON_PRODUCTION] Production +2 s'il est adjacent à une carrière ou une ressource stratégique. Provoque une bombe culturelle sur les cases neutres à sa complétion.</Text>
 		</Replace>
 
 		<!-- == GEORGIA - GÉORGIE == -->
@@ -812,10 +812,15 @@
 			<Text>Exclusive au Japon, cette unité médiévale de combat rapproché remplace l'Homme d'armes. [ICON_STRENGTH] Puissance de base +2. Ne subit pas de pénalité de combat lorsqu'elle est blessée.</Text>
 		</Replace>
 		<!-- = Unique building - Bâtiment unique = -->
+<<<<<<< HEAD
+		<Replace Tag="LOC_BUILDING_ELECTRONICS_FACTORY_EXPANSION2_DESCRIPTION" Language="fr_FR">
+			<Text>Exclusif au Japon, ce bâtiment remplace l'usine.[NEWLINE][NEWLINE][ICON_PRODUCTION] Production +4 pour tous les Centres-villes dans un rayon de 6 cases (ne s'applique qu'une seule fois par Centre-ville). [ICON_CULTURE] Culture +4.</Text>
+=======
 		<Replace Tag="LOC_BUILDING_ELECTRONICS_FACTORY_DESCRIPTION" Language="fr_FR">
 			<Text>Exclusif au Japon, ce bâtiment remplace l'usine.[NEWLINE][NEWLINE][ICON_PRODUCTION] Production +4 pour tous les Centres-villes dans un rayon de 6 cases (ne s'applique qu'une seule fois par Centre-ville). [ICON_CULTURE] Culture +4.</Text>
+>>>>>>> e714f401ce718467d8fc4f18a86d9fe7849759aa
 		</Replace>
-		
+
 		<!-- == KHMER == -->
 		<!-- = Civilization ability - Compétence de civilisation = -->
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_KHMER_BARAYS_EXPANSION2_DESCRIPTION" Language="fr_FR">
@@ -1180,7 +1185,7 @@
 		</Replace>
 		<!-- = Unique unit - Unité unique = -->
 		<Replace Tag="LOC_UNIT_OTTOMAN_BARBARY_CORSAIR_DESCRIPTION" Language="fr_FR">
-			<Text>Exclusive aux Ottomans, cette unité médiévale navale d'assaut en mer remplace le Corsaire. Peut naviguer sur les cases d'océan sans avoir recherché la Cartographie. Les assauts côtiers ne coûtent pas de [ICON_MOVEMENT] PM. Ne peut être vu que par des unités navales de combat rapproché à moins de lui être adjacent. Dévoile les unités d'assaut en mer dans son Champ de vision.</Text>
+			<Text>Exclusive aux Ottomans, cette unité médiévale navale d'assaut en mer remplace le Corsaire. Peut naviguer sur les cases d'océan sans avoir recherché la Cartographie. Les assauts côtiers ne coûtent pas de [ICON_MOVEMENT] PM. Ne peut être vu que par d'autres unités navales d'assaut en mer à moins de lui être adjacent. Révèle les unités d'assaut en mer dans le champ de vision.</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_CORSAIR_DESCRIPTION" Language="fr_FR">
 			<Text>Les assauts côtiers ne coûtent pas de [ICON_MOVEMENT] PM et peut naviguer sur les cases d'océan sans avoir recherché la Cartographie.</Text>
@@ -1674,6 +1679,16 @@
 		<Replace Tag="LOC_UNIT_MISSILE_CRUISER_DESCRIPTION" Language="fr_FR">
 			<Text>Unité navale de combat à distance de l'ère de l'information. Couvre des attaques aériennes et nucléaires dans un rayon de 1 case.</Text>
 		</Replace>
+<<<<<<< HEAD
+
+		<!-- == RAIDER - ASSAUT EN MER == -->
+		<Replace Tag="LOC_UNIT_PRIVATEER_DESCRIPTION" Language="fr_FR">
+			<Text>Unité navale d'assaut en mer de la Renaissance. Ne peut être vu que par d'autres unités navales d'assaut en mer à moins de lui être adjacent. Révèle les unités d'assaut en mer dans son champ de vision.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SUBMARINE_DESCRIPTION" Language="fr_FR">
+			<Text>Unité navale d'assaut en mer de l'ère moderne. Ne peut être vu que par d'autres unités navales d'assaut en mer à moins de lui être adjacent. Révèle les unités d'assaut en mer dans son champ de vision.</Text>
+		</Replace>
+=======
 
 		<!-- == RAIDER - ASSAUT EN MER == -->
 		<Replace Tag="LOC_UNIT_PRIVATEER_DESCRIPTION" Language="fr_FR">
@@ -1682,8 +1697,9 @@
 		<Replace Tag="LOC_UNIT_SUBMARINE_DESCRIPTION" Language="fr_FR">
 			<Text>Unité navale d'assaut en mer de l'ère moderne. Ne peut être vu que par d'autres unités navales de combat rapproché à moins de lui être adjacent. Révèle les unités d'assaut en mer dans son champ de vision.</Text>
 		</Replace>
+>>>>>>> e714f401ce718467d8fc4f18a86d9fe7849759aa
 		<Replace Tag="LOC_UNIT_NUCLEAR_SUBMARINE_DESCRIPTION" Language="fr_FR">
-			<Text>Unité navale d'assaut en mer de l'ère de l'information. Peut lancer des bombes A et H. Ne peut être vu que par d'autres unités navales de combat rapproché à moins de lui être adjacent. Dévoile les unités d'assaut en mer dans le champ de vision.</Text>
+			<Text>Unité navale d'assaut en mer de l'ère de l'information. Peut lancer des bombes A et H. Ne peut être vu que par d'autres unités navales d'assaut en mer à moins de lui être adjacent. Révèle les unités d'assaut en mer dans le champ de vision.</Text>
 		</Replace>
 
 		<!-- == CARRIER - PORTE-AVIONS == -->
