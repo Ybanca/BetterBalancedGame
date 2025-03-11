@@ -812,13 +812,8 @@
 			<Text>Exclusive au Japon, cette unité médiévale de combat rapproché remplace l'Homme d'armes. [ICON_STRENGTH] Puissance de base +2. Ne subit pas de pénalité de combat lorsqu'elle est blessée.</Text>
 		</Replace>
 		<!-- = Unique building - Bâtiment unique = -->
-<<<<<<< HEAD
 		<Replace Tag="LOC_BUILDING_ELECTRONICS_FACTORY_EXPANSION2_DESCRIPTION" Language="fr_FR">
 			<Text>Exclusif au Japon, ce bâtiment remplace l'usine.[NEWLINE][NEWLINE][ICON_PRODUCTION] Production +4 pour tous les Centres-villes dans un rayon de 6 cases (ne s'applique qu'une seule fois par Centre-ville). [ICON_CULTURE] Culture +4.</Text>
-=======
-		<Replace Tag="LOC_BUILDING_ELECTRONICS_FACTORY_DESCRIPTION" Language="fr_FR">
-			<Text>Exclusif au Japon, ce bâtiment remplace l'usine.[NEWLINE][NEWLINE][ICON_PRODUCTION] Production +4 pour tous les Centres-villes dans un rayon de 6 cases (ne s'applique qu'une seule fois par Centre-ville). [ICON_CULTURE] Culture +4.</Text>
->>>>>>> e714f401ce718467d8fc4f18a86d9fe7849759aa
 		</Replace>
 
 		<!-- == KHMER == -->
@@ -1679,7 +1674,6 @@
 		<Replace Tag="LOC_UNIT_MISSILE_CRUISER_DESCRIPTION" Language="fr_FR">
 			<Text>Unité navale de combat à distance de l'ère de l'information. Couvre des attaques aériennes et nucléaires dans un rayon de 1 case.</Text>
 		</Replace>
-<<<<<<< HEAD
 
 		<!-- == RAIDER - ASSAUT EN MER == -->
 		<Replace Tag="LOC_UNIT_PRIVATEER_DESCRIPTION" Language="fr_FR">
@@ -1688,16 +1682,6 @@
 		<Replace Tag="LOC_UNIT_SUBMARINE_DESCRIPTION" Language="fr_FR">
 			<Text>Unité navale d'assaut en mer de l'ère moderne. Ne peut être vu que par d'autres unités navales d'assaut en mer à moins de lui être adjacent. Révèle les unités d'assaut en mer dans son champ de vision.</Text>
 		</Replace>
-=======
-
-		<!-- == RAIDER - ASSAUT EN MER == -->
-		<Replace Tag="LOC_UNIT_PRIVATEER_DESCRIPTION" Language="fr_FR">
-			<Text>Unité navale d'assaut en mer de la Renaissance. Ne peut être vu que par d'autres unités navales d'assaut en mer à moins de lui être adjacent. Révèle les unités d'assaut en mer dans son champ de vision.</Text>
-		</Replace>
-		<Replace Tag="LOC_UNIT_SUBMARINE_DESCRIPTION" Language="fr_FR">
-			<Text>Unité navale d'assaut en mer de l'ère moderne. Ne peut être vu que par d'autres unités navales de combat rapproché à moins de lui être adjacent. Révèle les unités d'assaut en mer dans son champ de vision.</Text>
-		</Replace>
->>>>>>> e714f401ce718467d8fc4f18a86d9fe7849759aa
 		<Replace Tag="LOC_UNIT_NUCLEAR_SUBMARINE_DESCRIPTION" Language="fr_FR">
 			<Text>Unité navale d'assaut en mer de l'ère de l'information. Peut lancer des bombes A et H. Ne peut être vu que par d'autres unités navales d'assaut en mer à moins de lui être adjacent. Révèle les unités d'assaut en mer dans le champ de vision.</Text>
 		</Replace>
